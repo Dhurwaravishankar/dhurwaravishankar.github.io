@@ -1,0 +1,56 @@
+body {
+    background-image: url(https://i0.wp.com/picjumbo.com/wp-content/uploads/violet-colorful-sunset-sky-on-the-beach-free-photo.jpeg?w=600&quality=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f160b5; /* Solid background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.signin-container {
+    background-color: rgba(225,225, 225, 0.); /* White background for sign-in box *//*white background with 50% transparency */
+  
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(177, 11, 11, 0.895);
+    transform-box:;
+    width: 300px;
+    text-align: center;
+}
+
+.signin-container h2 {
+    margin-bottom: 20px;
+    color: #f31515;
+}
+
+.signin-container label {
+    display: block;
+    margin: 10px 0 5px;
+    color: rgb(243, 246, 246);
+}
+
+.signin-container input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.signin-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #d12a13;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signin-container button:hover {
+    background-color: #ee084d;
+}
